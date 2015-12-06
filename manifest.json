@@ -11,7 +11,7 @@
 		"url": "http://www.florianmeinel.de"
 	},
 	"orientation": "portrait",
-	"version": "2015.08.10",
+	"version": "None. Version should be created by create_release.py",
 	"default_locale": "en",
 	"locales": {
 		"en": {
