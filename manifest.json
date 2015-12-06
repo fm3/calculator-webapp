@@ -1,0 +1,26 @@
+{
+	"name": "Calculator",
+	"description": "Two-Line Scientific Calculator",
+	"launch_path": "/index.html",
+	"icons": {
+		"512": "/images/icon512.png",
+		"128": "/images/icon128.png"
+	},
+	"developer": {
+		"name": "Florian Meinel",
+		"url": "http://www.florianmeinel.de"
+	},
+	"orientation": "portrait",
+	"version": "2015.08.10",
+	"default_locale": "en",
+	"locales": {
+		"en": {
+			"name": "Calculator",
+			"description": "Two-Line Scientific Calculator"
+		},
+		"de": {
+			"name": "Rechner",
+			"description": "Zweizeiliger wissenschaftlicher Taschenrechner"
+		}
+	}
+}

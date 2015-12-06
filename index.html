@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Florian Meinel"/>
+		<title>Calculator</title>
+		<script src="scripts/queryHandling.js"></script>
+		<script src="scripts/calculation.js"></script>
+		<script src="scripts/resultHandling.js"></script>
+		<script src="scripts/buttons.js"></script>
+		<script src="scripts/scaling.js"></script>
+		<link rel="stylesheet" href="style/style.css" type="text/css" />
+		<meta name="viewport" content="width=device-width, initial-scale=0.75, user-scalable=no">
+	</head>
+
+	<body onload="resize(); clearQuery(); createButtons();">
+		<div id="query"></div>
+		<div id="result"></div>
+		<div id="buttons"></div>
+	</body>
+</html>

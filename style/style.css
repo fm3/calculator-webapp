@@ -1,0 +1,79 @@
+html {
+	background: #f4f4f4;
+}
+
+body {
+	margin: 0.7em auto 0 auto;
+	width: 16em;
+	font-size: 20pt;
+}
+
+#query {
+	min-height: 1.5em;
+	margin-left: 0.28em;
+	overflow: break;
+}
+
+#result {
+	min-height: 1.5em;
+	font-size: 135%;
+	margin-left: 0.5em;
+}
+
+.invalid {
+	color: rgba(0,0,0,0.3);
+}
+
+button {
+	width: 2.8em;
+	height: 2.8em;
+	margin: 0.15em;
+	font-size: inherit;
+}
+
+div#textCursor {
+	display: inline-block;
+	width: 2px;
+	height: 1em;
+	border: 0;
+	background-color: #000;
+	margin-top: 0.15em;
+	margin-bottom: -0.15em;
+	margin-right: -1px;
+	margin-left: -1px;
+}
+
+div.querySpacer {
+	display: inline-block;
+	width: 0;
+	height: 1em;
+	border: 0;
+	background-color: transparent;
+	margin-top: 0.15em;
+	margin-bottom: -0.15em;
+}
+
+#query span {
+	display: inline-block;
+	height: 0.95em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#query span.smallSpaceLeft {
+	padding-left: 0.12em;
+}
+
+#query span.smallSpaceRight {
+	padding-right: 0.12em;
+}
+
+#query span.bigSpaceLeft {
+	padding-left: 0.25em;
+}
+
+#query span.bigSpaceRight {
+	padding-right: 0.25em;
+}
+
+
